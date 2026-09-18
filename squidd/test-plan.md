@@ -19,8 +19,6 @@
 
 ## 2. Risk areas (ranked)
 
-<!-- REVIEW: your call — ranking is a draft; adjust likelihood/impact to your judgment. -->
-
 | Rank | Area | Why it is risky |
 |------|------|-----------------|
 | 1 | Spotify auth / token lifecycle | Expired or revoked tokens break every feature; hard to observe from the UI |
@@ -40,8 +38,6 @@
 - **Regression:** re-run all test cases in the affected feature area after each fix.
 
 ## 4. Test design techniques
-
-<!-- REVIEW: your call — candidate values below; decide which to turn into test cases. -->
 
 **Boundary value analysis**
 - `WidgetGeometry.minimum` = 282 × 170: widths 281 / 282 / 283, heights 169 / 170 / 171; frame larger than the screen.
