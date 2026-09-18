@@ -1,5 +1,7 @@
 ## TC-0001: Player overlay remains centered when media items are removed
 
+Priority: Low
+
 Preconditions: Squidd is launched and the player overlay is visible
 
 Steps:
@@ -10,10 +12,4 @@ Steps:
 
 Expected Result: The player overlay remains visually centered as items appear or disappear
 
-Actual Result: Remaining content shifts left and appears off center during the removal transition
-
-Status: Fail
-
-Severity: Low
-
-Bug Reference: Squidd issue #6 
+Related defects: [misanode/Squidd#6](https://github.com/misanode/Squidd/issues/6)
